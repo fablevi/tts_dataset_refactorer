@@ -4,7 +4,7 @@ import json
 import os
 
 # Betöltés
-dataset = load_from_disk("../../data/hungarian-single-speaker-tts")
+dataset = load_from_disk("../../data/hungarian-single-speaker-tts/train")
 
 # Készítsünk egy listát az összes adat tárolására
 all_data = []
